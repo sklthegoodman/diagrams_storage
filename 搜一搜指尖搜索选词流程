@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2020-08-31T12:26:27.856Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" version="13.5.7" etag="EnSq-zF9ddh3wMdBtAc6" type="github"><diagram id="89oFxsdtan8uyNfgP05y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-31T12:47:14.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="_4LDRQ_Xsc6CbmpCrBq7" version="13.5.7" type="github">
+  <diagram id="89oFxsdtan8uyNfgP05y" name="Page-1">
+    <mxGraphModel dx="1293" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oSiqphQUFEfRyxowkjQ--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oSiqphQUFEfRyxowkjQ--1" target="oSiqphQUFEfRyxowkjQ--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--1" value="用户发起选词搜索" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oSiqphQUFEfRyxowkjQ--2" target="oSiqphQUFEfRyxowkjQ--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oSiqphQUFEfRyxowkjQ--2" target="oSiqphQUFEfRyxowkjQ--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oSiqphQUFEfRyxowkjQ--2" target="oSiqphQUFEfRyxowkjQ--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--2" value="获取分词结果、相关搜索结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oSiqphQUFEfRyxowkjQ--5" target="oSiqphQUFEfRyxowkjQ--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--5" value="用户根据分词结果进行二次搜索" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--7" value="消费内容，流程结束" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oSiqphQUFEfRyxowkjQ--9" target="oSiqphQUFEfRyxowkjQ--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--9" value="根据query进行处理，生成选词蒙层" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oSiqphQUFEfRyxowkjQ--11" target="oSiqphQUFEfRyxowkjQ--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oSiqphQUFEfRyxowkjQ--11" value="用户在蒙城自定义关键词发起二次搜索" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
